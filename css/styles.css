@@ -1,0 +1,146 @@
+/***********************TAG SELECTORS***********************/
+body {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px extra-bold;
+    color: #F9FAF8;
+}
+
+footer {
+    background-color: #f9faf8;
+    text-align: center;
+    margin-top: 60px;
+}
+
+/***********************CLASS SELECTORS***********************/
+.navLinks {
+    padding-left: 15px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    align-items: center;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.signUp {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.quoteSection {
+    width: 800px;
+    text-align: left;
+    font-weight: italic;
+    background-color: #E5E7EB;
+    border-radius: 10px;
+    padding: 90px;
+    margin: 100px;
+    align-items: center;
+}
+
+.signUpContact {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+    border: 2px solid #f9faf8;
+}
+
+.contactSection {
+    background-color: #3882F6;
+    padding: 50px;
+    margin: 100px;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+}
+
+
+.container {
+    padding: 16px;
+    align-items: center;
+    display: flex;
+}
+
+.randomItems {
+    display: flex;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.item {
+    padding: 10px;
+    flex: 1;
+}
+
+.bigSquare {
+    height: 150px;
+    background-color: transparent;
+    border: solid rgb(255, 255, 255);
+    padding: 5px 0 0 0;
+    margin: 20px;
+}
+
+.square {
+    height: 85px;
+    background-color: white;
+    border: solid rgb(58, 134, 247);
+    padding: 5px 0 0 0;
+}
+
+.upperSection {
+    color: #F9FAF8;
+}
+
+
+.middleSection {
+    background-color: white;
+    height: 300px;
+}
+
+
+
+/***********************ID SELECTORS***********************/
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 130px;
+}
+
+
+#randomInfo {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex: 1;
+}
+
+#mainImage {
+
+    border: solid black;
+    height: 300px;
+    object-fit: cover;
+}
+
+#inspiringQuote {
+    font-size: 36px light italic #1F2937;
+}
