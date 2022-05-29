@@ -1,35 +1,71 @@
-/***********************TAG SELECTORS***********************/
 body {
+    margin: 0px;
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
 }
+
+/***********************HEADER SECTION***********************/
+
+.headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerItems {
+    padding: 10px;
+
+}
+
+.navLinks {
+    margin-right: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+.navLinks a:hover {
+    background-color: #ffffff;
+    color: blue;
+}
+
+.logo {
+    width: 50px;
+    margin-left: 100px;
+    border-style: dotted;
+    border-radius: 20px 1px 14px 2px;
+    border: #E5E7EB;
+}
+
+
+/*--------------------UPPER SECTION--------------------*/
 
 h1 {
     font-size: 48px extra-bold;
     color: #F9FAF8;
 }
 
-footer {
-    background-color: #f9faf8;
-    text-align: center;
-    margin-top: 60px;
+.upperSection {
+    color: #F9FAF8;
 }
 
-/***********************CLASS SELECTORS***********************/
-.navLinks {
-    padding-left: 15px;
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-
-.header {
+.upperContainer {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.secondaryText {
-    font-size: 18px;
-    color: #1F2937;
+.upperItems {
+    flex: 5;
+    margin-bottom: 50px;
+}
+
+#mainParagraph {
+    color: #F9FAF8;
+    width: 80%;
+    margin-bottom: 30px;
 }
 
 .signUp {
@@ -40,6 +76,65 @@ footer {
     border-radius: 10px;
     border: 0px;
 }
+
+.bigSquare {
+    height: 250px;
+    width: 500px;
+    background-color: transparent;
+    border: solid rgb(255, 255, 255);
+}
+
+
+
+/***********************MIDDLE SECTION***********************/
+
+
+.middleSection {
+    background-color: white;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+#randomInfo {
+    /*margin-top: 50px;*/
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.middleContainer {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+}
+
+.middleItems {
+    margin-top: 50px;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.square {
+    height: 85px;
+    width: 85px;
+    background-color: white;
+    border: solid rgb(58, 134, 247);
+    padding: 5px 0 0 0;
+}
+
+/*
+.secondaryText {
+    
+    font-size: 18px;
+    color: #1F2937;
+}
+
+*/
+
+
+/************************LOWER SECTION***************************/
+
 
 .quoteSection {
     width: 800px;
@@ -52,14 +147,8 @@ footer {
     align-items: center;
 }
 
-.signUpContact {
-    background-color: #3882F6;
-    padding: 10px 30px;
-    font-weight: bold;
-    font-size: 14px;
-    border-radius: 10px;
-    border: 0px;
-    border: 2px solid #f9faf8;
+#inspiringQuote {
+    font-size: 36px light italic #1F2937;
 }
 
 .contactSection {
@@ -73,75 +162,20 @@ footer {
     border: 2px solid #f9faf8;
 }
 
-
-.container {
-    padding: 16px;
-    align-items: center;
-    display: flex;
-}
-
-.randomItems {
-    display: flex;
-    margin-top: 50px;
-    gap: 40px;
-}
-
-.item {
-    padding: 10px;
-    flex: 1;
-}
-
-.bigSquare {
-    height: 150px;
-    background-color: transparent;
-    border: solid rgb(255, 255, 255);
-    padding: 5px 0 0 0;
-    margin: 20px;
-}
-
-.square {
-    height: 85px;
-    background-color: white;
-    border: solid rgb(58, 134, 247);
-    padding: 5px 0 0 0;
-}
-
-.upperSection {
-    color: #F9FAF8;
-}
-
-
-.middleSection {
-    background-color: white;
-    height: 300px;
+.signUpContact {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 0px;
+    border: 2px solid #f9faf8;
 }
 
 
 
-/***********************ID SELECTORS***********************/
-
-#logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    width: 130px;
-}
-
-
-#randomInfo {
+footer {
+    background-color: #f9faf8;
     text-align: center;
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    flex: 1;
-}
-
-#mainImage {
-
-    border: solid black;
-    height: 300px;
-    object-fit: cover;
-}
-
-#inspiringQuote {
-    font-size: 36px light italic #1F2937;
+    margin-top: 60px;
 }
